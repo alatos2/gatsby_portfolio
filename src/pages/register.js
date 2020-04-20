@@ -1,17 +1,18 @@
 import React from 'react'
 import Menu from '../components/menu';
+import Register from '../components/register';
 
-const index = () => {
+const about = () => {
     return (
         <div>
-            <Menu active1='active'/>
+            <Menu active6='active'/>
             <div className='content'>
-                <h1>Welcome!</h1>
+                <h1>Register</h1>
                 <hr></hr>
-                
+                <Register />
             </div>
         </div>
     )
 }
 
-export default index;
+export default about;
